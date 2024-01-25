@@ -36054,48 +36054,36 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     float: right;
     position: relative;
     height: 35px !important;
-    width: 35px;
+    width: 35px!important;
     overflow: hidden;
     white-space: nowrap;
     color: transparent;
   }
 
   :root {
-    --swl-box_padding: 1.5em;
+    --swl-box_padding: 1.5em!important;
   }
 
   .wp-block-columns .wp-block-column {
     margin: 0 !important;
-    flex-basis: 0%;
-  }
-
-  .wp-block-columns {
-    padding: 50px 0px;
-    background-color: #f7fbfc;
-    gap: var(--wp-column-gap) !important;
-    line-height: 1.6;
-    width: 100%;
+    flex-basis: 90%!important;
   }
 
   p.has-background {
-    font-size: 18px;
-    width: 100%;
-    margin: 0 auto;
+    font-size: 18px!important;
+    width: 100%!important;
+    margin: 0 auto!important;
   }
 
   .sd[data-s-496cf232-ae21-473e-ade1-eb8518423706] {
-    flex: none;
-    padding: 50px 0px 0px 0px;
-    width: 90%;
-    max-width: 88%;
+    flex: none!important;
+    padding: 50px 0px 0px 0px!important;
+    width: 90%!important;
+    max-width: 88%!important;
   }
 
   .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
-    margin-top: 50px !important;
-  }
-
-  .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
-    padding: 50px 0px 50px 0px !important;
+    padding: 40px 0px 0px 0px !important;
   }
 
   .sd[data-s-c31e06a1-dd73-4d97-bfe6-4d6c0e63983c] {
@@ -36104,6 +36092,30 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
   .sd[data-s-22434ca0-3f90-449c-8b0c-45071f3fa376] {
     flex: none;
-    margin-top: 50px !important;
+    margin-top: 40px !important;
+  }
+
+  .wp-block-columns {
+    padding: 40px 0!important;
+  }
+
+  .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
+    flex: none;
+    margin: 0px 0px 0px 0px!important;
+    padding: 40px 0px 40px 0px!important;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sd[data-s-c31e06a1-dd73-4d97-bfe6-4d6c0e63983c] {
+    flex: none;
+    padding: 40px 0px 0px 0px!important;
+    width: 88%;
+    max-width: 88%;
+  }
+
+  .sd[data-s-331f3016-ff04-46d2-8a7b-ac2b240c36b5] {
+    margin: 20px 0px 0px 0px;
+    max-width: 100%;
   }
 }
