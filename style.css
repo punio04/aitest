@@ -35951,7 +35951,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
 
   #fv_cta_btn {
     bottom: 14% !important;
@@ -35968,8 +35968,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin: 0 0 0 0;
     position: absolute;
     right: 125px !important;
-    width: 42% !important;
-    max-width: 42% !important;
+    width: 54% !important;
+    max-width: 54% !important;
   }
 
   .sd[data-s-87b5785e-223a-4b36-8e97-4681ccdc6c64] {
@@ -36023,7 +36023,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 
   .site-branding .site-logo-div {
-    line-height: 35px !important;
+    line-height: 45px !important;
   }
 
   .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
@@ -36053,33 +36053,33 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   #nav-toggle {
     float: right;
     position: relative;
-    height: 35px !important;
-    width: 35px!important;
+    height: 45px !important;
+    width: 35px !important;
     overflow: hidden;
     white-space: nowrap;
     color: transparent;
   }
 
   :root {
-    --swl-box_padding: 1.5em!important;
+    --swl-box_padding: 1.5em !important;
   }
 
   .wp-block-columns .wp-block-column {
     margin: 0 !important;
-    flex-basis: 90%!important;
+    flex-basis: 90% !important;
   }
 
   p.has-background {
-    font-size: 18px!important;
-    width: 100%!important;
-    margin: 0 auto!important;
+    font-size: 18px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
   }
 
   .sd[data-s-496cf232-ae21-473e-ade1-eb8518423706] {
-    flex: none!important;
-    padding: 50px 0px 0px 0px!important;
-    width: 90%!important;
-    max-width: 88%!important;
+    flex: none !important;
+    padding: 40px 0px 40px 0px !important;
+    width: 90% !important;
+    max-width: 88% !important;
   }
 
   .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
@@ -36096,29 +36096,63 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 
   .wp-block-columns {
-    padding: 40px 0!important;
+    padding: 40px 0 !important;
   }
 
   .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
     flex: none;
-    margin: 0px 0px 0px 0px!important;
-    padding: 40px 0px 40px 0px!important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 40px 0px 0px 0px !important;
     width: 100%;
     max-width: 100%;
   }
 
   .sd[data-s-c31e06a1-dd73-4d97-bfe6-4d6c0e63983c] {
     flex: none;
-    padding: 40px 0px 0px 0px!important;
+    padding: 40px 0px 0px 0px !important;
     width: 88%;
     max-width: 88%;
   }
 
   .sd[data-s-331f3016-ff04-46d2-8a7b-ac2b240c36b5] {
-    margin: 20px 0px 0px 0px!important;
+    margin: 20px 0px 0px 0px !important;
     max-width: 100%;
   }
+
   .site-header.header-fixed {
-    height: 45px!important;
+    height: 45px !important;
   }
+
+  .site-logo-div img {
+    height: 45px !important;
+  }
+
+  #fv_cta_btn {
+    bottom: 14%;
+    left: 30% !important;
+  }
+
+  #flowbg {
+    padding-bottom: 40px !important;
+  }
+
+  .is-style-faq-stripe .swell-block-faq__item:not(:last-child) {
+    margin-bottom: 0em!important;
+  }
+
+    .image:before {
+      background-image: url(img/font_bg.png);
+      background-position: 50%;
+      background-size: cover;
+      border-radius: inherit;
+      content: "";
+      height: 100%;
+      left: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      transition: inherit;
+      width: 100%;
+      z-index: -2;
+    }
 }
