@@ -983,8 +983,8 @@ Footer widgets
 }
 
 .onepress-menu ul {
-  min-width: 12em;
-  width: 12em;
+  min-width: 19em;
+  width: 19em;
   border: 1px solid #e9e9e9;
   border-top: none;
 }
@@ -1137,9 +1137,7 @@ Footer widgets
     z-index: 10;
     font-size: 22px;
   }
-  .onepress-menu.onepress-menu-mobile .nav-toggle-dropdown > .nav-toggle-subarrow .fa-angle-down:before {
-    content: "\f106" !important;
-  }
+  
   .onepress-menu.onepress-menu-mobile .nav-toggle-dropdown > ul {
     display: block !important;
   }
