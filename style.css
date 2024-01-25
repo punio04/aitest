@@ -35952,3 +35952,61 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 </style>
+
+
+
+@media screen and (max-width: 640px) {
+
+  #fv_cta_btn {
+    bottom: 14%;
+    left: 31% !important;
+    -webkit-transform: translateX(-50%) !important;
+    -ms-transform: translateX(-50%) !important;
+  }
+
+  .sd[data-s-eff666d7-d262-49ef-980d-1114ffbf13cc] {
+    bottom: 190px;
+    display: flex;
+    flex: none;
+    left: auto;
+    margin: 0 0 0 0;
+    position: absolute;
+    right: 125px;
+    width: 42%;
+    max-width: 42%;
+  }
+
+  .sd[data-s-87b5785e-223a-4b36-8e97-4681ccdc6c64] {
+    align-content: center;
+    align-items: center;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 12px 25px 12px 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sd[data-s-f0f7137b-2505-493d-b1b7-7f755c1806e5] {
+    font-size: 12px;
+  }
+
+  .sd[data-s-96e55209-dd47-4578-913f-f74a6392a621] {
+    bottom: 13px;
+    right: 8px;
+  }
+
+  .sd[data-s-96e55209-dd47-4578-913f-f74a6392a621] {
+    bottom: 25px;
+    color: #FFFFFF;
+    font-size: 10px;
+    left: auto;
+    margin: 0 0 0 0;
+    position: absolute;
+    right: 35px;
+    top: auto;
+    max-width: 100%;
+  }
+
+}
