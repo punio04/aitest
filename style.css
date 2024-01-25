@@ -35951,7 +35951,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
 
   #fv_cta_btn {
     bottom: 14% !important;
@@ -36115,7 +36115,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 
   .sd[data-s-331f3016-ff04-46d2-8a7b-ac2b240c36b5] {
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 0px!important;
     max-width: 100%;
+  }
+  .site-header.header-fixed {
+    height: 45px!important;
   }
 }
