@@ -36140,23 +36140,105 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin-bottom: 0em!important;
   }
 
-    .image:before {
-      background-image: url(img/font_bg.png);
-      background-position: 50%;
-      background-size: cover;
-      border-radius: inherit;
-      content: "";
-      height: 100%;
-      left: 0;
-      pointer-events: none;
-      position: absolute;
-      top: 0;
-      transition: inherit;
-      width: 100%;
-      z-index: -2;
-    }
+  .image:before {
+    background-image: url(img/font_bg.png)!important;
+    background-position: 50%!important;
+    background-size: cover;
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: inherit;
+    width: 100%;
+    z-index: -2;
+  }
 
-    #merit {
-      padding: 40px 0px;
-    }
+  #merit {
+    padding: 40px 0px!important;
+  }
+
+  .sd[data-s-b1dd57d0-3f81-4ead-b270-9f19bde8f423] {
+    display: block !important;
+    flex: auto !important;
+    width: 100% !important;
+    height: 220px!important;
+    margin-top: 40px !important;
+  }
+
+  .sd[data-r-9_b1dd57d0-3f81-4ead-b270-9f19bde8f423]:before {
+    background-image: url(img/cta_bg.png)!important;
+  }
+
+  .image:before {
+    background-position: 70% !important;
+    background-size: cover;
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 5px;
+    transition: inherit;
+    width: 100%;
+    z-index: -2;
+  }
+  .sd[data-s-bf34dbcc-6635-4d3f-be9b-415ed4f071ea] {
+    display: flex!important;
+    margin: 20px 0px 0px 0px!important;
+    max-width: 100%;
+  }
+
+  .sd[data-s-ad8a58c7-fcdf-4ff2-9d6b-a322db7899a7] {
+    display: none;
+  }
+
+  .sd[data-s-ad8a58c7-fcdf-4ff2-9d6b-a322db7899a7] {
+    color: #FFFFFF;
+    display: none;
+    font-family: var(--s-font-b781f827);
+    font-size: 18px!important;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.17em;
+    line-height: 1.4;
+    margin: 32px 0px 0px 80px!important;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: auto;
+    max-width: 100%;
+    justify-content: center!important;
+  }
+
+  .sd[data-s-a5530afb-8a8d-40fa-a29a-beaa68581cbe] {
+    flex: none;
+    font-size: 13px !important;
+    width: 88% !important;
+    max-width: 88%!important;
+  }
+          
+  .sd[data-s-a5530afb-8a8d-40fa-a29a-beaa68581cbe] {
+  color: #FFFFFF;
+  font-family: var(--s-font-7bac3c1c);
+  font-size: 14px!important;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  margin: 10px 0px 0px 0px!important;
+  text-align: center!important;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: auto;
+  max-width: 100%;
+  left: 15%!important;
+  justify-content: center!important;
+  }
+
+  #cta_btn2 {
+    bottom: 12%!important;
+    left: 32% !important;
+  }
 }
