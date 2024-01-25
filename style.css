@@ -5183,10 +5183,6 @@ span.wpcf7-not-valid-tip,
   content: "\f076"
 }
 
-.fa-chevron-up:before {
-  content: "\f077"
-}
-
 .fa-retweet:before {
   content: "\f079"
 }
@@ -5686,13 +5682,6 @@ span.wpcf7-not-valid-tip,
   content: "\f105"
 }
 
-.fa-angle-up:before {
-  content: "\f077"
-}
-
-.fa-chevron-down:before {
-  content: "\f077"
-}
 
 .fa-desktop:before {
   content: "\f108"
@@ -17960,10 +17949,6 @@ a.text-gray-dark:hover {
   content: "\f076"
 }
 
-.fa-chevron-up:before {
-  content: "\f077"
-}
-
 .fa-retweet:before {
   content: "\f079"
 }
@@ -18463,13 +18448,6 @@ a.text-gray-dark:hover {
   content: "\f105"
 }
 
-.fa-angle-up:before {
-  content: "\f077"
-}
-
-.fa-chevron-down:before {
-  content: "\f077"
-}
 
 .fa-desktop:before {
   content: "\f108"
@@ -31170,7 +31148,7 @@ Footer widgets
 }
 
 .onepress-menu a {
-  line-height: 22px;
+  line-height: 75px;
   color: #333333;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   padding-left: 17px;
@@ -31255,7 +31233,8 @@ Footer widgets
   }
 
   .onepress-menu.onepress-menu-mobile>li>a {
-    padding: 12px 20px;
+    padding: 15px 50px;
+    line-height: 25px;
   }
 
   .onepress-menu.onepress-menu-mobile li:hover ul {
@@ -31274,7 +31253,8 @@ Footer widgets
   }
 
   .onepress-menu.onepress-menu-mobile ul li a {
-    padding: 12px 35px;
+    padding: 12px 65px;
+    line-height: 25px;
     border-top: none;
   }
 
@@ -31321,20 +31301,23 @@ Footer widgets
   .onepress-menu.onepress-menu-mobile .nav-toggle-subarrow {
     display: block;
     color: #999999;
-    border-left: 1px solid #e9e9e9;
     font-weight: normal;
     position: absolute;
     top: 0;
     right: 0;
     cursor: pointer;
     text-align: center;
-    padding: 11px 20px;
+    padding: 11px 50px;
     z-index: 10;
     font-size: 22px;
   }
 
   .onepress-menu.onepress-menu-mobile .nav-toggle-dropdown>.nav-toggle-subarrow .fa-chevron-down:before {
-    content: "\f077" !important;
+    content: "\f107" !important;
+  }
+
+  .fa-angle-down:before {
+    content: "\f107" !important;
   }
 
   .onepress-menu.onepress-menu-mobile .nav-toggle-dropdown>ul {

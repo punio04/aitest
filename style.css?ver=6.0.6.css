@@ -1089,7 +1089,7 @@ Footer widgets
     border-bottom: none;
   }
   .onepress-menu.onepress-menu-mobile ul li a {
-    padding: 12px 35px;
+    padding: 12px 65px;
     border-top: none;
   }
   .onepress-menu.onepress-menu-mobile ul li a:hover {
@@ -1126,7 +1126,6 @@ Footer widgets
   .onepress-menu.onepress-menu-mobile .nav-toggle-subarrow {
     display: block;
     color: #999999;
-    border-left: 1px solid #e9e9e9;
     font-weight: normal;
     position: absolute;
     top: 0;
