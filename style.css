@@ -36038,26 +36038,72 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-image: url(img/font_bg.png) !important;
   }
 
-    .site-header {
-      line-height: 35px !important;
-      position: relative;
-      width: 100%;
-      background: #ffffff;
-      z-index: 1000;
-      -webkit-transition: all 1s ease-out;
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
-      box-shadow: 0 5px 10px 0 rgba(50, 50, 50, 0.06);
-    }
+  .site-header {
+    line-height: 35px !important;
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    -webkit-transition: all 1s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    box-shadow: 0 5px 10px 0 rgba(50, 50, 50, 0.06);
+  }
 
-        #nav-toggle {
-          float: right;
-          position: relative;
-          height: 35px !important;
-          width: 35px;
-          overflow: hidden;
-          white-space: nowrap;
-          color: transparent;
-        }
+  #nav-toggle {
+    float: right;
+    position: relative;
+    height: 35px !important;
+    width: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: transparent;
+  }
 
+  :root {
+    --swl-box_padding: 1.5em;
+  }
+
+  .wp-block-columns .wp-block-column {
+    margin: 0 !important;
+    flex-basis: 0%;
+  }
+
+  .wp-block-columns {
+    padding: 50px 0px;
+    background-color: #f7fbfc;
+    gap: var(--wp-column-gap) !important;
+    line-height: 1.6;
+    width: 100%;
+  }
+
+  p.has-background {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sd[data-s-496cf232-ae21-473e-ade1-eb8518423706] {
+    flex: none;
+    padding: 50px 0px 0px 0px;
+    width: 90%;
+    max-width: 88%;
+  }
+
+  .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
+    margin-top: 50px !important;
+  }
+
+  .sd[data-s-affd5443-180e-44da-b4b6-0f0d22ae1ad8] {
+    padding: 50px 0px 50px 0px !important;
+  }
+
+  .sd[data-s-c31e06a1-dd73-4d97-bfe6-4d6c0e63983c] {
+    padding-top: 50px !important;
+  }
+
+  .sd[data-s-22434ca0-3f90-449c-8b0c-45071f3fa376] {
+    flex: none;
+    margin-top: 50px !important;
+  }
 }
